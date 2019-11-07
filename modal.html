@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modales con Bootstrap</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+</head>
+<body>
+	<div class="container-fluid">
+		<!-- Button to Open the Modal -->
+		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+		  Abrir Modal
+		</button>
+
+		<!-- The Modal -->
+		<div class="modal fade" id="myModal">
+		  <div class="modal-dialog modal-xl">
+		    <div class="modal-content">
+
+		      <!-- Modal Header -->
+		      <div class="modal-header">
+		        <h4 class="modal-title">Crear Producto</h4>
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		      </div>
+
+		      <!-- Modal body -->
+		      <div class="modal-body">
+		        <div class="row text-center">
+		        	<div class="col-sm-6">
+		        		<button class="btn btn-primary">Facebook</button>
+		        	</div>
+		        	<div class="col-sm-6">
+		        		<button class="btn btn-warning">Google</button>
+		        	</div>
+		        </div>
+		      </div>
+
+		      <!-- Modal footer -->
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+		      </div>
+
+		    </div>
+		  </div>
+		</div>
+
+	</div>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
